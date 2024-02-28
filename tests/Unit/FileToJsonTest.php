@@ -2,6 +2,16 @@
 
 use App\FileToJson\FileToJson;
 
+beforeEach(function () {
+    copy(__DIR__ . '/../../static/limerick.txt', __DIR__ . '/../../src/3_FileToJson/limerick.txt');
+    copy(__DIR__ . '/../../static/empty.txt', __DIR__ . '/../../src/3_FileToJson/empty.txt');
+});
+
+afterAll(function () {
+    copy(__DIR__ . '/../../static/limerick.txt', __DIR__ . '/../../src/3_FileToJson/limerick.txt');
+    copy(__DIR__ . '/../../static/empty.txt', __DIR__ . '/../../src/3_FileToJson/empty.txt');
+});
+
 it('converts the limmerick to json', function () {
     $fileToJson = new FileToJson();
     $json = $fileToJson->execute('limerick.txt');

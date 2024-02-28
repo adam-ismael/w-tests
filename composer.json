@@ -8,6 +8,8 @@
             "App\\FileToJson\\": "src/3_FileToJson/",
             "App\\NotInstanciableClass\\": "src/4_NotInstanciableClass/",
             "App\\SubstringInstances\\": "src/5_SubstringInstances/",
+            "App\\ModifyFileLines\\": "src/6_ModifyFileLines/",
+            "App\\NotClonableClass\\": "src/9_NotClonableClass/",
             "App\\": "src/"
         }
     },

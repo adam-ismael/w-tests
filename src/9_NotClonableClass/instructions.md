@@ -1,0 +1,2 @@
+- Prevent the `NonClonable` class from being cloned.
+- Run the test:  `./vendor/bin/pest tests/Unit/NonClonableTest.php`
