@@ -1,0 +1,28 @@
+{
+    "name": "adam/wiboo-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\Interface\\": "src/1_Interface/",
+            "App\\ArrayFunction\\": "src/2_ArrayFunction/",
+            "App\\FileToJson\\": "src/3_FileToJson/",
+            "App\\NotInstanciableClass\\": "src/4_NotInstanciableClass/",
+            "App\\SubstringInstances\\": "src/5_SubstringInstances/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adam-ismael",
+            "email": "adam.ismael@pm.me"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

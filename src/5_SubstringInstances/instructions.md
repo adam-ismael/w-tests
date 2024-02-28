@@ -1,0 +1,5 @@
+- Complete the `execute` function of `FindSubstrings` which takes a multiline string input and returns an array of matches based on the pattern explained below:
+  - The function should search for occurrences of the pattern 'sh' followed by one or more alphanumeric characters (letters or digits), and ending with 'sh'.
+  - The pattern matching should be case-insensitive.
+  - The function should return only distinct matches.
+- Run the test:  `./vendor/bin/pest tests/Unit/FindSubstringsTest.php`

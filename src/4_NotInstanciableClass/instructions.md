@@ -1,0 +1,3 @@
+- Create a class called `NonInstanciable`, within the `App\NotInstanciableClass` namespace.
+- Make sure that `NonInstanciable` cannot be instantiated
+- Run the test:  `./vendor/bin/pest tests/Unit/NotInstanciableClassTest.php`
