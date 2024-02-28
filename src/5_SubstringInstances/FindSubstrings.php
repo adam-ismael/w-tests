@@ -10,7 +10,6 @@ class FindSubstrings
         // Your code below the line
         // ----------------------------------------
 
-        preg_match_all('/sh(\w+?)sh/i', $string, $matches);
-        return $matches[0];
+        return $matches;
     }
 }

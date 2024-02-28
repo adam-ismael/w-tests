@@ -8,6 +8,6 @@ class ArrayFunction
     {
         // Your code below the line
         // ----------------------------------------
-        return array_map(fn(string $w) => "|{$w}|", $array);
+        return $array;
     }
 }
